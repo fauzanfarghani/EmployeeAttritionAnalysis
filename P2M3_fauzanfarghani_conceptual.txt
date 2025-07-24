@@ -1,0 +1,33 @@
+Conceptual
+
+Nama: Fauzan Rahmat Farghani
+
+Batch: HCK-028
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+NoSQL adalah jenis basis data yang tidak menggunakan struktur tabel relasional seperti pada database SQL. NoSQL dirancang untuk menangani data yang besar, tidak terstruktur, atau semi-terstruktur, serta mendukung skala horizontal dan fleksibilitas skema.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+NoSQL digunakan ketika data yang disimpan bersifat tidak terstruktur, sering berubah, atau membutuhkan skalabilitas tinggi, contohnya adalah data sensor, dokumen, atau data media sosial.
+RDBMS digunakan pada saat data bersifat terstruktur, relasi antar data kompleks, dan membutuhkan konsistensi transaksi, contohnya adalah sistem keuangan atau aplikasi perbankan.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+Berikut adalah 2 tools NoSQL selain ElasticSearch:
+
+MongoDB: Keunggulan dari MongoDB adalah fleksibel dalam menyimpan data dokumen seperti json, MongoDB juga mudah diskalakan dan cocok untuk aplikasi dengan data yang sering berubah.
+Redis: Keunggulan dari Redis adalah sangat cepat karena toolsnya berbasis in-memory, selain itu Redis juga cocok untuk caching, session management, dan real-time analytics.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Airflow adalah platform open-source untuk mengatur, menjadwalkan, dan memonitor workflow data menggunakan automasi dengan function. Airflow menggunakan konsep DAG untuk mendefinisikan urutan tugas yang harus dijalankan berdasarkan fungsi yang telah diinisialisasi.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Great Expectations adalah framework open-source yang berfungsi untuk validasi data. Tool ini dapat mendefinisikan, menguji, dan mendokumentasikan ekspektasi terhadap data agar kualitas data tetap sesuai (true) sebelum diproses lebih lanjut.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Batch Processing adalah metode pemrosesan data dalam skala jumlah besar secara berkala (tidak real-time). Contoh penerapan batch prosesing dalam kehidupan sehari-hari adalah pemrosesan data transaksi harian di bank, atau kondisi cuaca pada website weathers. Tools yang sering digunakan antara lain Apache Spark dan Airflow.
