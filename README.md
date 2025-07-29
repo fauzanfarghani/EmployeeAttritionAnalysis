@@ -6,14 +6,14 @@ Berikut adalah isi dari file yang ada di repository ini:
 ```
   P2-M3/fauzanfarghani
   |
-  ├── description.md = Penjelasan gambaran umum proyek
-  ├── P2M3_fauzanfarghani_ddl.txt = Query yang digunakan untuk loading dataset ke postgre
-  ├── P2M3_fauzanfarghani_data_raw.csv = data kotor yang diperoleh dari website Kaggle
-  ├── P2M3_fauzanfarghani_data_clean.csv = data yang sudah dibersihkan menggunakan automasi Airflow
-  ├── P2M3_fauzanfarghani_DAG.py = program automasi untuk data cleaning menggunakan Airflow
-  ├── P2M3_fauzanfarghani_DAG_graph.jpg = Alur grafik automasi
-  ├── P2M3_fauzanfarghani_conceptual.txt = informasi umum terkait NoSQL, Airflow, Great Expectation dan Batch Processing.
-  ├── P2M3_fauzanfarghani_GX.ipynb = File notebook untuk validasi data dari dataset bersih menggunakan great expectation.
+  ├── README.md = Penjelasan gambaran umum proyek
+  ├── ddl.txt = Query yang digunakan untuk loading dataset ke postgre
+  ├── data_raw.csv = data kotor yang diperoleh dari website Kaggle
+  ├── data_clean.csv = data yang sudah dibersihkan menggunakan automasi Airflow
+  ├── DAG.py = program automasi untuk data cleaning menggunakan Airflow
+  ├── DAG_graph.jpg = Alur grafik automasi
+  ├── conceptual.txt = informasi umum terkait NoSQL, Airflow, Great Expectation dan Batch Processing.
+  ├── GX.ipynb = File notebook untuk validasi data dari dataset bersih menggunakan great expectation.
   ├── /images = visualisasi dari analisis data beserta penjelasannya berisikan foto-foto berikut
         ├── introduction & objective.png
         ├── plot & insight 01.png
@@ -37,7 +37,7 @@ Output dari hasil proyek ini adalah sebagai berikut:
 - Rekomendasi Bisnis yang dapat diterapkan berdasarkan kesimpulan yang telah dibuat.
 
 ## Data
-Data yang digunakan adalah dataset `P2M3_fauzanfarghani_data_clean.csv.csv` yang berisi informasi profil dari karyawan secara anonim dengan kolom-kolom berikut:
+Data yang digunakan adalah dataset `data_clean.csv.csv` yang berisi informasi profil dari karyawan secara anonim dengan kolom-kolom berikut:
 - **Jumlah kolom**: 35
 - **Jumlah baris**: 1470 baris.
 - **Sumber data**: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
