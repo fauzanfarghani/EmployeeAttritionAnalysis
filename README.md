@@ -4,7 +4,7 @@
 Berikut adalah isi dari file yang ada di repository ini:
 
 ```
-  P2-M3/fauzanfarghani
+  /EmployeeAttritionAnalysis
   |
   ├── README.md = Penjelasan gambaran umum proyek
   ├── ddl.txt = Query yang digunakan untuk loading dataset ke postgre
